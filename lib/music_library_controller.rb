@@ -44,4 +44,8 @@ class MusicLibraryController
     end
   end
   
+  def list_artists
+    Artist.all.sort 
+  end
+  
 end
